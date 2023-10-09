@@ -7,7 +7,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack",
-    "deploy": "gh-pages --dist 'dist' --branch 'release'"
+    "deploy": "gh-pages --dist 'dist' --branch 'gh-pages'"
   },
   "author": "gazik",
   "license": "ISC",
