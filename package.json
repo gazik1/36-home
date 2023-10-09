@@ -1,11 +1,14 @@
 {
+  "homepage":"http://газик1.github.io/36-home" ,
   "name": "home",
   "version": "1.0.0",
   "description": "36 home work",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
-    "build": "webpack"
+    "build": "webpack",
+    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "author": "gazik",
   "license": "ISC",
